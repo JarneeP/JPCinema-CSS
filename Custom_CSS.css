@@ -1,0 +1,29 @@
+/* Must have CSS otherwise shit no work properly and look like shit */
+@import url('Root/Fixes.css');
+@import url('Root/Base.css');
+@import url('Root/Accentlist.css');
+@import url('Root/Font.css');
+
+/* General Tweaks */
+@import url('General_Tweaks/Transparant_Banner.css');
+@import url('General_Tweaks/Custom_Played_Indicator.css');
+@import url('General_Tweaks/Progress_Bar.css');
+@import url('General_Tweaks/Rounded_Corners.css');
+@import url('General_Tweaks/Colors.css');
+@import url('General_Tweaks/Hidden_Trailers.css');
+@import url('General_Tweaks/Input_Fields.css');
+
+/* Login Screen */
+@import url('Login_Screen/Login_Screen.css');
+
+/* Media Specific Tweaks */
+@import url('Media_Specific_Tweaks/Better_Cast&Crew.css');
+@import url('Media_Specific_Tweaks/Better_Itempage.css');
+@import url('Media_Specific_Tweaks/Compact_Episodes.css');
+
+/* Style backdrop */
+.backdropImage {filter: blur(5px) saturate(120%) contrast(120%) brightness(55%);}
+
+/* Accent and roundings */
+:root {--accent: 51, 153, 255;}
+:root {--rounding: 12px;}
