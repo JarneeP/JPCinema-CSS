@@ -1,0 +1,12 @@
+#castContent .card.overflowPortraitCard {width: 4.2cm !important; font-size: 90% !important;}
+.cardPadder {background-color: #0000 !important; box-shadow: none !important;}
+
+/* Correct image aspect ratio behaviour, set border-radius to zero for square tiles, 2.4cm for completely round */
+#castContent .cardOverlayContainer.itemAction,
+#castContent .cardImageContainer
+{border-radius: 2.4cm !important;}
+#castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
+
+/* Only add this if using completely round icons */
+#castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
+#castContent .cardOverlayButton {margin: auto;}

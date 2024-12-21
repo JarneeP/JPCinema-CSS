@@ -1,0 +1,4 @@
+/* Hide the "Trailers" tab in Movies and the "Upcoming" tab in TV Shows */
+.emby-tab-button[data-index="2"] {
+    display: none !important;
+  }
