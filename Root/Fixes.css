@@ -140,3 +140,10 @@
 .listItem {
   padding-left: 1em;
 }
+
+/* Prevent title truncation in libraries */
+.cardText {  
+  white-space: normal !important;  
+  text-overflow: unset !important;  
+  overflow: visible !important;  
+}
